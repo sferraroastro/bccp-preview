@@ -124,10 +124,6 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 - Casey Stark
 - Byeonghee Yu
 
-## BCCP Administrators
+## BCCP Administrator
 
 - Maria Feng, [mariafeng@berkeley.edu](mailto:mariafeng@berkeley.edu)
-
-## Web administrator
-
-- Bryan Abisher
