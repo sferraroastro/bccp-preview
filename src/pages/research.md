@@ -8,7 +8,7 @@ These are some of the projects that are either led by BCCP scientists, or that h
 
 * * *
 
-![/images/research/sdss3\_logo.png](/images/research/sdss3_logo.png)
+![](/images/research/sdss3_logo.png)
 
 ## [BOSS](http://sdss3.org/surveys/boss.php)
 
@@ -16,7 +16,7 @@ The Baryon Oscillation Spectroscopic Survey (BOSS) is a recently completed 5-yea
 
 * * *
 
-![/images/research/polarbear\_logo.png](/images/research/polarbear_logo.png)
+![](/images/research/polarbear_logo.png)
 
 ## [POLARBEAR](http://bolo.berkeley.edu/polarbear/)
 
@@ -24,7 +24,7 @@ The Polarization of Background Radiation (POLARBEAR) experiment is designed to d
 
 * * *
 
-![/images/research/des\_logo.jpg](/images/research/des_logo.jpg)
+![](/images/research/des_logo.jpg)
 
 ## [Dark Energy Survey](#dark-energy-survey)
 
@@ -32,7 +32,7 @@ The Dark Energy Survey (DES) is a 5-year imaging survey currently underway. It i
 
 * * *
 
-![/images/research/c3\_logo.jpg](/images/research/c3_logo.jpg)
+![](/images/research/c3_logo.jpg)
 
 ## [Computional Cosmology Center](https://c3.lbl.gov/)
 
@@ -40,7 +40,7 @@ The Computational Cosmology Center (C3) is a focused collaboration of astrophysi
 
 * * *
 
-![/images/research/scp\_logo.jpg](/images/research/scp_logo.jpg)
+![](/images/research/scp_logo.jpg)
 
 ## [Supernova Cosmology Project](http://supernova.lbl.gov/)
 
@@ -48,7 +48,7 @@ The Supernova Cosmology Project (SCP) probes the properties of dark energy in th
 
 * * *
 
-![/images/research/snfactory\_logo.jpg](/images/research/snfactory_logo.jpg)
+![](/images/research/snfactory_logo.jpg)
 
 ## [Nearby Supernova Factory](http://snfactory.lbl.gov/)
 
@@ -56,7 +56,7 @@ The Nearby Supernova Factory (SNfactory) is an experiment to develop Type Ia sup
 
 * * *
 
-![/images/research/desi\_logo.jpg](/images/research/desi_logo.jpg)
+![](/images/research/desi_logo.jpg)
 
 ## [Dark Energy Spectroscopic Instrument](http://desi.lbl.gov/)
 

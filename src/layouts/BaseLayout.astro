@@ -19,6 +19,10 @@ const nav = [
 const currentPath = Astro.url.pathname;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const withBase = (path: string) => `${base}${path}`;
+const normalizedCurrentPath = currentPath.startsWith(`${base}/`)
+  ? currentPath.slice(base.length) || "/"
+  : currentPath;
+const isCurrentPage = (href: string) => href === "/" ? normalizedCurrentPath === "/" : normalizedCurrentPath === href;
 ---
 
 <!doctype html>
@@ -30,27 +34,31 @@ const withBase = (path: string) => `${base}${path}`;
     <title>{title} | BCCP</title>
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href={withBase("/")} aria-label="BCCP home">
-          <img src={withBase("/images/logo_108.png")} alt="BCCP" />
+          <img src={withBase("/images/logo_108.png")} alt="" />
         </a>
         <nav class="nav" aria-label="Primary navigation">
           {nav.map((item) => (
-            <a href={withBase(item.href)} aria-current={currentPath.endsWith(item.href) ? "page" : undefined}>
+            <a href={withBase(item.href)} aria-current={isCurrentPage(item.href) ? "page" : undefined}>
               {item.label}
             </a>
           ))}
         </nav>
       </div>
     </header>
-    <main class="main">
+    <main class="main" id="main-content">
       <slot />
     </main>
     <footer class="site-footer">
       <div class="footer-inner">
         <span>Contents © 2026 BCCP</span>
-        <span>Berkeley Center for Cosmological Physics</span>
+        <span>
+          Berkeley Center for Cosmological Physics
+          <a href="https://dap.berkeley.edu/report-web-accessibility-issue">Accessibility</a>
+        </span>
       </div>
     </footer>
   </body>

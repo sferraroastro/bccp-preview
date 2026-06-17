@@ -65,7 +65,7 @@ const withBase = (path: string) => `${base}${path}`;
     <div class="quick-grid">
       {cards.map((card) => (
         <a class="quick-card" href={withBase(card.href)}>
-          <h3>{card.title}</h3>
+          <h2>{card.title}</h2>
           <p>{card.text}</p>
         </a>
       ))}

@@ -31,9 +31,36 @@ a:hover {
   color: #0b356f;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  z-index: 20;
+  transform: translateY(-150%);
+  background: var(--ink);
+  color: white;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.skip-link:hover {
+  color: white;
 }
 
 .site-header {
@@ -187,8 +214,9 @@ h3 {
   background: #fbfcfd;
 }
 
-.quick-card h3 {
-  margin-top: 0;
+.quick-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.22rem;
 }
 
 .page-hero {

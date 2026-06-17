@@ -4,9 +4,9 @@ title: "Donate"
 description: "Support BCCP research, education, visitors, workshops, and students."
 ---
 
-#### The BCCP Partner Fund
+## The BCCP Partner Fund
 
-![/images/support/endow.jpg](/images/support-endow.jpg)
+![](/images/support-endow.jpg)
 
 Unlocking the mysteries of the universe is an exciting scientific challenge. How will we succeed? With visionary funders who understand the magnitude of the moment and are willing to make an investment in the future of science. As a heroic partner with the BCCP, we can illuminate the infrastructure of the universe and help nurture the next generation of promising scientists.
 
