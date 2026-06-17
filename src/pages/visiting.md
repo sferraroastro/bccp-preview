@@ -244,3 +244,12 @@ Address: Campbell Hall 341 University of California, Berkeley, CA 94720
 For business inquiries, please contact BCCP Business Administrator, Laura Fantone.
 
 For extended visits, please refer to the visitor program information above.
+
+<iframe
+  title="Map showing Campbell Hall at UC Berkeley"
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1574.725871919613!2d-122.2569908!3d37.8731169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c245f989543%3A0x1236c2e95f769aed!2sCampbell+Hall!5e0!3m2!1sen!2sus!4v1425424681671"
+  width="600"
+  height="450"
+  loading="lazy"
+  style="border:0;max-width:100%;"
+></iframe>
