@@ -10,6 +10,7 @@ description: "Seminars, lunches, workshops, and center events."
 
 ## Past Workshops
 
+- [Cosmology in the Adriatic -- From PT to AI](https://bccp-berkeley-2024-split.netlify.app/), 2024 July 14-20, Split, Croatia
 - [Vipolze](https://bccp.berkeley.edu/2022-Smartno/index.html), 2022 July 17-23, Vipolze, Slovenia
 - [Reionization and Cosmic Dawn: Looking Forward To the Past](https://bccp.berkeley.edu/2022-reionization/index.html), 2022 Mar 21-23, Berkeley, CA
 - [Spectroscopic Surveys: Are We Ready For the Future](https://bccp.berkeley.edu/2020-spectroscopic/index.html), 2020 Jan 13-15, Berkeley, CA
