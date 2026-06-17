@@ -10,9 +10,6 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 
 [Saul Perlmutter](http://physics.berkeley.edu/people/faculty/saul-perlmutter), Nobel Laureate
 
-**Founding Director**
-
-George Smoot, Nobel Laureate
 
 **Current BCCP-affiliated Postdocs**
 
