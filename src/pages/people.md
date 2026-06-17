@@ -126,7 +126,7 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 
 ## BCCP Administrators
 
-- Maria Feng
+- Maria Feng, [mariafeng@berkeley.edu](mailto:mariafeng@berkeley.edu)
 
 ## Web administrator
 
