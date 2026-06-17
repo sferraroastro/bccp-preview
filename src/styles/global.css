@@ -272,6 +272,12 @@ h3 {
   margin-top: 8px;
 }
 
+.unlinked-title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
 .content .align-left {
   float: left;
   max-width: 170px;
