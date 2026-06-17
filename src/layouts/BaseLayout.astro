@@ -1,0 +1,57 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Berkeley Center for Cosmological Physics" } = Astro.props;
+const nav = [
+  { href: "/", label: "Home" },
+  { href: "/research/", label: "Research" },
+  { href: "/people/", label: "People" },
+  { href: "/events/", label: "Events" },
+  { href: "/jobs/", label: "Jobs" },
+  { href: "/visiting/", label: "Visiting" },
+  { href: "/donate/", label: "Donate" }
+];
+const currentPath = Astro.url.pathname;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const withBase = (path: string) => `${base}${path}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title} | BCCP</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href={withBase("/")} aria-label="BCCP home">
+          <img src={withBase("/images/logo_108.png")} alt="BCCP" />
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          {nav.map((item) => (
+            <a href={withBase(item.href)} aria-current={currentPath.endsWith(item.href) ? "page" : undefined}>
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>Contents © 2026 BCCP</span>
+        <span>Berkeley Center for Cosmological Physics</span>
+      </div>
+    </footer>
+  </body>
+</html>

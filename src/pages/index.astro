@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const cards = [
+  {
+    title: "Research",
+    href: "/research/",
+    text: "Projects led by BCCP scientists and collaborations with deep BCCP involvement."
+  },
+  {
+    title: "People",
+    href: "/people/",
+    text: "Faculty, scientists, postdocs, students, visitors, alumni, and administrators."
+  },
+  {
+    title: "Events",
+    href: "/events/",
+    text: "Seminars, lunches, workshops, and center events."
+  },
+  {
+    title: "Jobs",
+    href: "/jobs/",
+    text: "Postdoctoral fellowships and other opportunities in Berkeley cosmology."
+  },
+  {
+    title: "Visiting",
+    href: "/visiting/",
+    text: "Information about the BCCP visitor program and past visitors."
+  },
+  {
+    title: "Donate",
+    href: "/donate/",
+    text: "Ways to support research, visitors, workshops, and students at BCCP."
+  }
+];
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const withBase = (path: string) => `${base}${path}`;
+---
+
+<BaseLayout
+  title="Berkeley Center for Cosmological Physics"
+  description="BCCP focuses on understanding the origin and evolution of the universe through observations, experiments, theory, and simulation."
+>
+  <section class="section hero">
+    <div>
+      <div class="eyebrow">Berkeley Center for Cosmological Physics</div>
+      <h1>Understanding the origin and evolution of the universe.</h1>
+      <p class="lead">
+        BCCP is focused on understanding the origin and evolution of the universe through programs that
+        define the observations, experiments, concepts, and simulations needed to answer fundamental
+        questions in cosmology.
+      </p>
+      <p>
+        Combining experimentation, computation, and theory, BCCP continues to develop the foundation
+        of an accurate, reliable model of the cosmos and compare that model against observations.
+      </p>
+    </div>
+    <figure class="hero-media">
+      <img src={withBase("/images/campbell-wikipedia-400x300.jpg")} alt="Campbell Hall on the UC Berkeley campus" />
+      <figcaption class="caption">Campbell Hall, UC Berkeley. Photo by James Lin.</figcaption>
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="quick-grid">
+      {cards.map((card) => (
+        <a class="quick-card" href={withBase(card.href)}>
+          <h3>{card.title}</h3>
+          <p>{card.text}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
