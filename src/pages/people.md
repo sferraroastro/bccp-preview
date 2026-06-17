@@ -14,6 +14,8 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 - [Greg Aldering](https://commons.lbl.gov/display/physics/Greg+Aldering)
 - [Joanne Cohn](http://astro.berkeley.edu/~jcohn/)
 - [Simone Ferraro](https://sferraro.lbl.gov/)
+- [John Groh](https://lowtemperaturecosmicmeasurement.lbl.gov/)
+- [Julien Guy](https://profiles.lbl.gov/julien-guy)
 - [William Holzapfel](https://physics.berkeley.edu/people/faculty/william-holzapfel)
 - [Alex Kim](http://panisse.lbl.gov/~akim/)
 - [Adrian Lee](http://physics.berkeley.edu/people/faculty/adrian-lee)
@@ -22,6 +24,7 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 - [Pat McDonald](http://cosmology.berkeley.edu/directory.html)
 - [Peter Nugent](http://astro.berkeley.edu/people/faculty/nugent.htm)
 - [David Schlegel](https://djschlegel.wordpress.com/)
+- [Clara Verges](https://claraverges.github.io/)
 - [Martin White](http://w.astro.berkeley.edu/~mwhite/)
 
 ## Current BCCP-affiliated Postdocs
