@@ -9,19 +9,29 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 - [Uros Seljak](http://physics.berkeley.edu/people/faculty/uros-seljak)
 - [Saul Perlmutter](http://physics.berkeley.edu/people/faculty/saul-perlmutter), Nobel Laureate
 
+## BCCP-affiliated faculty and scientists
+
+- [Greg Aldering](https://commons.lbl.gov/display/physics/Greg+Aldering)
+- [Joanne Cohn](http://astro.berkeley.edu/~jcohn/)
+- [Simone Ferraro](https://sferraro.lbl.gov/)
+- [William Holzapfel](https://physics.berkeley.edu/people/faculty/william-holzapfel)
+- [Alex Kim](http://panisse.lbl.gov/~akim/)
+- [Adrian Lee](http://physics.berkeley.edu/people/faculty/adrian-lee)
+- Michael Levi
+- [Eric Linder](http://supernova.lbl.gov/~evlinder/)
+- [Pat McDonald](http://cosmology.berkeley.edu/directory.html)
+- [Peter Nugent](http://astro.berkeley.edu/people/faculty/nugent.htm)
+- [David Schlegel](https://bigboss.lbl.gov/Contacts.html)
+- [Martin White](http://w.astro.berkeley.edu/~mwhite/)
+- [Adrian Lee](https://physics.berkeley.edu/people/faculty/adrian-lee)
+
 ## Current BCCP-affiliated Postdocs
 
-- [Anton Baleato Lizancos](https://abaleato.github.io/)
-- Roger de Belsunce
-- Joseph DeRose
 - [Gerrit Farren](https://gerrfarr.github.io/)
 - Shamik Ghosh
-- Boryana Hadzhiyska
 - [Minas Karamanis](https://www.minaskaramanis.com)
 - Anthony Kremin
 - Zack Li
-- Amelie Tamone
-- Noah Weaverdyck
 - [Rongpu Zhou](https://rongpu.github.io/)
 
 ## BCCP-affiliated Graduate and Undergraduate students
@@ -36,31 +46,6 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 - Noah Sailer
 - James Sullivan
 - Winston Yin
-
-## Other BCCP-affiliated faculty and scientists
-
-- [Greg Aldering](https://commons.lbl.gov/display/physics/Greg+Aldering)
-- [Marcelo Alvarez](http://cita.utoronto.ca/~malvarez)
-- Stephen Bailey
-- Chris Bebek
-- [Julian Borrill](http://crd.lbl.gov/departments/computational-science/c3/c3-people/borrill/)
-- [Joanne Cohn](http://astro.berkeley.edu/~jcohn/)
-- [Bob Cahn](http://phyweb.lbl.gov/~rncahn/www/cahn.html)
-- [Yu Feng](http://rainwoodman.github.io/website)
-- [Simone Ferraro](https://sferraro.lbl.gov/)
-- Satya Gontcho A Gontcho
-- [William Holzapfel](https://physics.berkeley.edu/people/faculty/william-holzapfel)
-- [Alex Kim](http://panisse.lbl.gov/~akim/)
-- [Adrian Lee](http://physics.berkeley.edu/people/faculty/adrian-lee)
-- Michael Levi
-- [Eric Linder](http://supernova.lbl.gov/~evlinder/)
-- [Pat McDonald](http://cosmology.berkeley.edu/directory.html)
-- [Peter Nugent](http://astro.berkeley.edu/people/faculty/nugent.htm)
-- Anand Raichoor
-- Natalie Roe
-- [David Schlegel](https://bigboss.lbl.gov/Contacts.html)
-- Rollin Thomas
-- [Martin White](http://w.astro.berkeley.edu/~mwhite/)
 
 ## Former BCCP Postdocs
 
@@ -107,6 +92,16 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 - Antonella Palmese
 - [Kara Ponder](https://kponder.github.io/)
 - Michael Wilson
+- [Yu Feng](http://rainwoodman.github.io/website)
+- Anand Raichoor
+- Satya Gontcho A Gontcho
+- Boryana Hadzhiyska
+- Amelie Tamone
+- Noah Weaverdyck
+- [Anton Baleato Lizancos](https://abaleato.github.io/)
+- Roger de Belsunce
+- Joseph DeRose
+
 
 ## Former BCCP Graduate and Undergraduate students
 
