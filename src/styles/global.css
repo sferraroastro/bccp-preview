@@ -225,6 +225,17 @@ h3 {
   padding-left: 1.25rem;
 }
 
+.page-people ul {
+  columns: 2;
+  column-gap: 46px;
+  max-width: 760px;
+}
+
+.page-people li {
+  break-inside: avoid;
+  margin-bottom: 4px;
+}
+
 .content .simple {
   margin-top: 8px;
 }
@@ -357,6 +368,10 @@ h3 {
     float: none;
     display: block;
     margin: 8px 0 16px;
+  }
+
+  .page-people ul {
+    columns: 1;
   }
 
   .content img[src*="/images/research/"],
