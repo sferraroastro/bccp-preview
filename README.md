@@ -4,15 +4,27 @@ This is a small static website for the Berkeley Center for Cosmological Physics,
 
 ## Editing Content
 
-Most content lives in `src/pages/`.
+Most content lives in Markdown files under `src/pages/`.
 
-- `src/pages/index.astro` controls the home page.
-- `src/pages/research.astro` controls Research.
-- `src/pages/people.astro` controls People.
-- `src/pages/events.astro` controls Events.
-- `src/pages/jobs.astro` controls Jobs.
-- `src/pages/visiting.astro` controls Visiting.
-- `src/pages/donate.astro` controls Donate.
+- `src/pages/index.astro` controls the home page because it has a custom layout.
+- `src/pages/research.md` controls Research.
+- `src/pages/people.md` controls People.
+- `src/pages/events.md` controls Events.
+- `src/pages/jobs.md` controls Jobs.
+- `src/pages/visiting.md` controls Visiting.
+- `src/pages/donate.md` controls Donate.
+
+When editing a Markdown page, leave the block at the top in place:
+
+```md
+---
+layout: ../layouts/PageLayout.astro
+title: "People"
+description: "BCCP-affiliated directors, faculty, scientists, postdocs, students, alumni, and administrators."
+---
+```
+
+Edit the content below that block.
 
 Images live in `public/images/`. Anything in `public/` is copied directly into the finished site, so an image at `public/images/example.jpg` is referenced as `/images/example.jpg`.
 
