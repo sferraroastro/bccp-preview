@@ -24,7 +24,7 @@ description: "BCCP-affiliated directors, faculty, scientists, postdocs, students
 - [Pat McDonald](http://cosmology.berkeley.edu/directory.html)
 - [Peter Nugent](http://astro.berkeley.edu/people/faculty/nugent.htm)
 - [David Schlegel](https://djschlegel.wordpress.com/)
-- [Clara Verges](https://claraverges.github.io/)
+- [Clara Vergès](https://claraverges.github.io/)
 - [Martin White](http://w.astro.berkeley.edu/~mwhite/)
 
 ## Current BCCP-affiliated Postdocs
